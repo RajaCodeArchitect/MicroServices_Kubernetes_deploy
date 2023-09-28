@@ -15,3 +15,13 @@
   - ![Alt text](assets/image-1.png)
   - `k create -f redis-pod.yaml`
   - `k create -f redis-service.yaml`
+  - `minikube service voting-service --url` it will url
+  - `minikube start ` if it's stop before running kubectl make sure to check minikube status
+  - `kubectl get pods,svc,deployment`
+  - `kubectl create -f voting-app-deploy`
+  - `kubectl create -f voting-app-service`
+  - `kubectl delete service <name>`
+  - `kubectl scale deployment voting-app-deploy --replicas=6`
+
+
+![Alt text](assets/image.png)
